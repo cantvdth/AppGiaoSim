@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tab_mytask"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/tab_wait"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/tv_size_medium"
+            android:textStyle="bold" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_count_tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/bg_circle_count"
+            android:gravity="center"
+            android:maxLength="3"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_tiny"
+            android:visibility="gone"
+            tools:ignore="SmallSp" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_edt_border" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/tab_assigned"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/tv_size_medium"
+            android:textStyle="normal" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_edt_border" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_count_tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/bg_circle_count"
+            android:gravity="center"
+            android:maxLength="3"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_tiny"
+            android:visibility="gone"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tab_done"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/tv_size_medium"
+            android:textStyle="normal" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_edt_border" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_count_tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/bg_circle_count"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_size_tiny"
+            android:visibility="gone"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:id="@+id/tv_tab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tab_cancel"
+            android:textColor="@color/setting_text"
+            android:textSize="@dimen/tv_size_medium"
+            android:textStyle="normal" />
+
+        <vn.simthanglong.appgiaosim.view.TextViewCustom
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_edt_border" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App Giao Sim</string>
+
+    // login
+
+    <string name="login">Đăng nhập</string>
+    <string name="login_user_name_hint">Tên đăng nhập</string>
+    <string name="hint_Password">Mật khẩu</string>
+    <string name="to_do">TODO</string>
+    <string name="search">Nhập số tìm kiếm</string>
+    <string name="tab_wait">Chờ giao</string>
+    <string name="tab_assigned">Đang giao</string>
+    <string name="tab_done">Giao xong</string>
+    <string name="tab_cancel">Thất bại</string>
+    <string name="hotline">Hotline 0944.199.991</string>
+    <string name="retry_title">Không có kết nối Internet</string>
+    <string name="retry_content">Vui lòng kiểm tra kết nối internet của bạn và thử lại</string>
+    <string name="report_cancel">Huỷ</string>
+</resources>

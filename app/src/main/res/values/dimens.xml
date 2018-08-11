@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edt_min_height">37dp</dimen>
+    <dimen name="tv_size_medium">15sp</dimen>
+    <dimen name="tv_size_tiny">12sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="alert_dialog_width">300dp</dimen>
+</resources>
